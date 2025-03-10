@@ -7,6 +7,9 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/osha-safety-test',
+  assetPrefix: '/osha-safety-test/',
   eslint: {
     ignoreDuringBuilds: true,
   },
